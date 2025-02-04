@@ -3,14 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>Marini Dwi | Portfolio Website</title>
+    <link rel="icon" type="image/png" href="./assets/icon-web.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">     
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=partly_cloudy_night" />
+    <link href="https://api.fontshare.com/v2/css?f[]=neco@1,2&f[]=gambarino@400&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-thin-straight/css/uicons-thin-straight.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar">
-        <div class="logo">Your Brand</div>
+        <div class="logo">
+            <span class="material-symbols-outlined">partly_cloudy_night</span>
+            Marini</div>
         <div class="hamburger">
             <span class="bar"></span>
             <span class="bar"></span>
@@ -18,8 +30,8 @@
         </div>
         <ul class="nav-menu">
             <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#features" class="nav-link">Features</a></li>
-            <li><a href="#services" class="nav-link">Services</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
             <li><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
     </nav>
@@ -27,80 +39,84 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Welcome to Your Website</h1>
-            <p>Create something amazing with our services</p>
-            <a href="#contact" class="cta-button">Get Started</a>
+            <img src="assets/hero-decor.png" alt="decoration">
+            <h1>Hi! I'm Marini <!--<i class="fa-solid fa-wand-sparkles"></i>--></h1> 
+            <p>A second-year student interested in web development, with a particular focus on front-end. </p>
+            <a href="#skills" class="cta-button">Explore My Portfolio</a>
         </div>
     </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <h2>Our Features</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <i class="fas fa-rocket"></i>
-                <h3>Fast & Reliable</h3>
-                <p>Experience lightning-fast performance and reliable service.</p>
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <h2>What I Can Do? <i class="ri-bard-line"></i></h2>
+        <div class="skills-grid">
+            <div class="skills-card">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                <p>Capable of creating basic website structures using HTML, understanding essential elements and tags to build simple web pages.</p>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-shield-alt"></i>
-                <h3>Secure</h3>
-                <p>Your security is our top priority with advanced protection.</p>
+            <div class="skills-card">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>Familiar with fundamental CSS styling, able to enhance website appearance with colors, layouts, and basic responsiveness.</p>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-users"></i>
-                <h3>User Friendly</h3>
-                <p>Intuitive design that makes everything easier.</p>
+            <div class="skills-card">
+                <i class="fi fi-ts-lightbulb-head"></i>
+                <h3>Problem Solving</h3>
+                <p>Continuously developing critical and logical thinking skills to solve problems, especially in programming and analysis.</p>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-clock"></i>
-                <h3>24/7 Support</h3>
-                <p>Round-the-clock support whenever you need it.</p>
+            <div class="skills-card">
+                <i class="fi fi-rr-english"></i>
+                <h3>English</h3>
+                <p>More confident in reading and understanding English texts, while working on improving speaking skills for better communication.</p>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <img src="https://via.placeholder.com/300x200" alt="Service 1">
-                <h3>Service One</h3>
-                <p>Comprehensive solution for your needs.</p>
-                <a href="#" class="service-btn">Learn More</a>
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Learning Journey <i class="fa-solid fa-wand-magic-sparkles"></i></h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="assets/miu-shop.jpg" alt="Project 1">
+                <h3>Miu Shop</h3>
+                <h4>Dibimbing Final Assignment</h4>
+                <p>Miu Shop is an e-commerce landing page that offers pet supplies for dogs and cats, including clothing, toys, food, and litter boxes.</p>
+                <a href="https://marinidwi.github.io/projectDSF25_-FE_Marini/" class="project-btn">Explore Project</a>
             </div>
-            <div class="service-card">
-                <img src="https://via.placeholder.com/300x200" alt="Service 2">
-                <h3>Service Two</h3>
-                <p>Professional support and guidance.</p>
-                <a href="#" class="service-btn">Learn More</a>
+            <div class="project-card">
+                <img src="assets/mengenal-indonesia.jpg" alt="Project 2">
+                <h3>Mengenal Indonesia</h3>
+                <h4>Dicoding Final Assignment</h4>
+                <p>Mengenal Indonesia is an educational website that explores Indonesia’s traditions, culture, and unique aspects.</p>
+                <a href="https://marinidwi.github.io/project-tugas_akhir-dicoding/" class="project-btn">Explore Project</a>
             </div>
-            <div class="service-card">
-                <img src="https://via.placeholder.com/300x200" alt="Service 3">
-                <h3>Service Three</h3>
-                <p>Innovative solutions for modern problems.</p>
-                <a href="#" class="service-btn">Learn More</a>
+            <div class="project-card">
+                <img src="assets/ruangilmu-project.jpg" alt="Project 3">
+                <h3>RuangIlmu</h3>
+                <h4>Academic Assignment</h4>
+                <p>RuangIlmu is a learning platform providing English, programming, and general knowledge materials.</p>
+                <a href="https://ruangilmu-web.github.io/" class="project-btn">Explore Project</a>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
+        <h2>Let's Get In Touch</h2>
         <div class="contact-content">
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <p>123 Business Street, City, Country</p>
+                    <p>Papan Indah 1, Tambun Selatan, Kabupaten Bekasi</p>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-phone"></i>
-                    <p>+1 234 567 890</p>
+                    <p>+62 878 8869 4315</p>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <p>info@yourcompany.com</p>
+                    <p>dwimarini708@gmail.com</p>
                 </div>
             </div>
             <form>
@@ -115,20 +131,20 @@
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>About Us</h4>
-                <p>Your trusted partner in delivering quality services and solutions.</p>
+                <h4>About Me</h4>
+                <p>I’m Marini, a second-year student passionate about front-end web development. I enjoy learning and building simple, functional websites.</p>
             </div>
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="footer-section">
-                <h4>Follow Us</h4>
+                <h4>Follow Me</h4>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -138,7 +154,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 Your Company. All rights reserved.</p>
+            <p>&copy; 2025 Marini Dwi. All rights reserved.</p>
         </div>
     </footer>
 
