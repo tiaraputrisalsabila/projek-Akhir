@@ -3,127 +3,386 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Website</title>
+    <title>flower shop | tiara</title>
+
+
+    <!-- font awesome cdn  link -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- custom css file link -->
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navbar -->
+
+
+<!-- header navbar section starts -->
+
+<header>
+
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+    <a href="#" class="logo"> flower <span>.</span></a>
+
     <nav class="navbar">
-        <div class="logo">Your Brand</div>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
-        <ul class="nav-menu">
-            <li><a href="#home" class="nav-link">Home</a></li>
-            <li><a href="#features" class="nav-link">Features</a></li>
-            <li><a href="#services" class="nav-link">Services</a></li>
-            <li><a href="#contact" class="nav-link">Contact</a></li>
-        </ul>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
     </nav>
-    <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-content">
-            <h1>Welcome to Your Website</h1>
-            <p>Create something amazing with our services</p>
-            <a href="#contact" class="cta-button">Get Started</a>
+
+    <div class="icons">
+        <a href="#" class="fas fa-heart"></a>
+        <a href="#" class="fas fa-shopping-cart"></a>
+        <a href="#" class="fas fa-user"></a>
+    </div>
+</header>
+<!-- header navbar section ends-->
+
+<!-- home section starts -->
+
+<section class="home" id="Home">
+
+    <div class="content">
+        <h3>fresh flowers</h3>
+        <span> natural & beautiful flowers</span>
+        <p>lorem ipsum dolor sit amet consectetur adipsicing elit. Beatae laborum ut minus corrupti dolorum dolore assumeda iste voluptate dolorem pariatur</p>
+        <a hre="#" class="btn">shop now</a>
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- about section starts -->
+
+<section class="about" id="about">
+
+    <h1 class="heading"> <span> About</span> Us</h1>
+
+    <div class="row">
+
+        <div class="video-container">
+            <video src="about-vid.mp4" loop autoplay muted></video>
+            <h3>best flower sellers</h3>
         </div>
-    </section>
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <h2>Our Features</h2>
-        <div class="features-grid">
-            <div class="feature-card">
-                <i class="fas fa-rocket"></i>
-                <h3>Fast & Reliable</h3>
-                <p>Experience lightning-fast performance and reliable service.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-shield-alt"></i>
-                <h3>Secure</h3>
-                <p>Your security is our top priority with advanced protection.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-users"></i>
-                <h3>User Friendly</h3>
-                <p>Intuitive design that makes everything easier.</p>
-            </div>
-            <div class="feature-card">
-                <i class="fas fa-clock"></i>
-                <h3>24/7 Support</h3>
-                <p>Round-the-clock support whenever you need it.</p>
-            </div>
+
+        <div class="content">
+            <h3>why choose us?</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem cumque sit nemo pariatur corporis perspiciatis aspernatur a ullam repudiandae autem asperiores quibusdam omnis commodi alias repellat illum, unde optio temporibus.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium ea est commodi incidunt magni quia molestias perspiciatis, unde repudiandae quidem.</p>
+            <a href="#" class="btn">Learn more</a>
         </div>
-    </section>
-    <!-- Services Section -->
-    <section id="services" class="services">
-        <h2>Our Services</h2>
-        <div class="services-grid">
-            <div class="service-card">
-                <img src="https://via.placeholder.com/300x200" alt="Service 1">
-                <h3>Service One</h3>
-                <p>Comprehensive solution for your needs.</p>
-                <a href="#" class="service-btn">Learn More</a>
-            </div>
-            <div class="service-card">
-                <img src="https://via.placeholder.com/300x200" alt="Service 2">
-                <h3>Service Two</h3>
-                <p>Professional support and guidance.</p>
-                <a href="#" class="service-btn">Learn More</a>
-            </div>
-            <div class="service-card">
-                <img src="https://via.placeholder.com/300x200" alt="Service 3">
-                <h3>Service Three</h3>
-                <p>Innovative solutions for modern problems.</p>
-                <a href="#" class="service-btn">Learn More</a>
-            </div>
+    </div>
+
+
+</section>
+
+<!-- about section ends -->
+
+<!-- icons section starts-->
+
+<section class="icons-container">
+
+    <div class="icons">
+        <img src="delivery-truck.png" alt="">
+        <div class="info">
+            <h3>free delivery</h3>
+            <span>on all orders</span>
         </div>
-    </section>
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <div class="contact-content">
-            <div class="contact-info">
-                <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p>123 Business Street, City, Country</p>
+    </div>
+
+    <div class="icons">
+        <img src="big-bag-of-coins.png" alt="">
+        <div class="info">
+            <h3>7 days returns</h3>
+            <span>moneyback guarantee</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="gift-card.png" alt="">
+        <div class="info">
+            <h3>offer & gifts</h3>
+            <span>on all orders</span>
+        </div>
+    </div>
+
+    <div class="icons">
+        <img src="credit-cards.png" alt="">
+        <div class="info">
+            <h3>secure paymens</h3>
+            <span>protected by paypal</span>
+        </div>
+    </div>
+</section>
+
+<!-- icons section starts-->
+
+
+<!-- products section starts -->
+
+<section class="products" id="products">
+    
+    <h1 class="heading"> latest <span>products</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <span class="discount">-10%</span>
+                <div class="image">
+                    <img src="gambar1.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
                 </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <p>+1 234 567 890</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
-                    <p>info@yourcompany.com</p>
+                <div class="content">
+                    <h3>flower bouqet</h3>
+                    <div class="price"> $12.99 <span> $15.99</span> </div>
                 </div>
             </div>
-            <form>
-                <input type="text" placeholder="Name" required>
-                <input type="email" placeholder="Email" required>
-                <textarea placeholder="Message" required></textarea>
-                <button type="submit" class="cta-button">Send Message</button>
-            </form>
+
+        <div class="box">
+            <span class="discount">-15%</span>
+                <div class="image">
+                    <img src="gambar2.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                <h3>flower bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
         </div>
-    </section>
-    <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>About Us</h4>
-                <p>Your trusted partner in delivering quality services and solutions.</p>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+                <div class="image">
+                        <img src="gambar33.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="cart-btn">Add To Cart</a>
+                            <a href="#" class="fas fa-share"></a>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <h3>flower bouqet</h3>
+                            <div class="price"> $12.99 <span> $15.99</span> </div>
+                        </div>
+                    </div>
+
+        <div class="box">
+            <span class="discount">-20%</span>
+                <div class="image">
+                    <img src="gambar42.jpg" alt="">
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="cart-btn">Add To Cart</a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>flower pot</h3>
+                    <div class="price"> $12.99 <span> $15.99</span> </div>
+                            </div>
+                        </div>
+
+        <div class="box">
+            <span class="discount">-17%</span>
+            <div class="image">
+                <img src="gambar52.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
             </div>
-            <div class="footer-section">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#features">Features</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <div class="content">
+                <h3>flower bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
             </div>
-            <div class="footer-section">
-                <h4>Follow Us</h4>
+        </div>
+
+        <div class="box">
+            <span class="discount">-3%</span>
+            <div class="image">
+                <img src="gambar6.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <span class="discount">-18%</span>
+            <div class="image">
+                <img src="gambar72.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
+        </div>
+            
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="gambar89.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="gambar9.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3> Flower Bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="gambar101.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower pot</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <span class="discount">-10%</span>
+            <div class="image">
+                <img src="gambar11.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower Bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <span class="discount">-5%</span>
+            <div class="image">
+                <img src="gambar121.jpg" alt="">
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="cart-btn">Add To Cart</a>
+                    <a href="#" class="fas fa-share"></a>
+                </div>
+            </div>
+            <div class="content">
+                <h3>flower Bouqet</h3>
+                <div class="price"> $12.99 <span> $15.99</span> </div>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- products section ends -->
+
+<!-- Contact Section starts -->
+<section class="contact" id="contact">
+    <h1 class="heading"> <span> Contact </span> Us </h1>
+
+    <div class="row">
+
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="number" placeholder="Number" class="box">
+            <textarea name="" class="box" placeholder="Message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+
+        <div class="image">
+            <img src="toko bunga.jpg" alt="">
+        </div>
+    </div>
+
+<!-- contact section ends -->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Products</a>
+                <a href="#">Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra Links</h3>
+                <a href="#">my accountmy order</a>
+                <a href="#">my fovarite</a>
+            </div>
+
+            <div class="box">
+                <h3>Locations</h4>
+                <a href="#">Bali</a>
+                <a href="#">Jakarta</a>
+                <a href="#">Bandung</a>
+                <a href="#">Bekasi</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">+62 890-9326-1059</a>
+                <a href="#">flower shop in@gmail.com</a>
+                <a href="#">Bandung, Jawa Barat -400104</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
                 <div class="social-links">
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
@@ -131,11 +390,15 @@
                     <a href="#"><i class="fab fa-linkedin"></i></a>
                 </div>
             </div>
+
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2025 Your Company. All rights reserved.</p>
+        <div class="credit"> Created by <span> tiara putri salsabila </span> | all rights reserved  
         </div>
-    </footer>
-    <script src="script.js"></script>
+
+</section>
+
+<script src="script.js"></script>
+
 </body>
 </html>
+<!-- footer section ends -->
