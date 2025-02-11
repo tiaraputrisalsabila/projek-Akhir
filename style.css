@@ -33,7 +33,7 @@ section {
 }
 
 .heading span {
-    color:var(--pink)
+    color:var(--pink);
 }
 
 .btn {
@@ -85,7 +85,7 @@ header .logo {
 }
 
 header .logo span {
-    color:var(--pink)
+    color: rgb(255, 158, 174);
 }
 
 header .navbar a {
@@ -420,29 +420,13 @@ header .fa-bars {
 }
 
 .footer .credit span{
-    color:var(--pink);
+    color: rgb(255, 150, 168);
 }
 
 .social-links {
     display: flex;
     gap: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
