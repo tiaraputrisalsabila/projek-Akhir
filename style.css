@@ -19,52 +19,6 @@ html {
     overflow-x: hidden;
 }
 
-section {
-    padding: 2rem 9%;
-}
-
-.heading {
-    text-align: center;
-    font-size: 4rem;
-    color:#333;
-    padding:1rem;
-    margin:2rem 0;
-    background: rgba(255, 51, 153,.05);
-}
-
-.heading span {
-    color:var(--pink);
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    background: #333;
-    color:#fff;
-    padding:.9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.7rem;
-}
-    
-.btn:hover {
-    background: var(--pink);
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    background: #333;
-    color:#fff;
-    padding:.9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.7rem;
-}
-
-.btn:hover {
-    background: var(--pink);
-}
 
 header {
     position: fixed;
@@ -122,6 +76,104 @@ header .fa-bars {
     display: none;
 }
 
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #2c3e50;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #3498db;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(135deg, #fda4af, #a8c0ff);
+    color: white;
+    padding: 0 1rem;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Sections Common Styles */
+section {
+    padding: 2rem 9%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background: rgba(255, 51, 153,.05);
+}
+
+.heading span {
+    color:var(--pink);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+    
+.btn:hover {
+    background: var(--pink);
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color:#fff;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover {
+    background: var(--pink);
+}
 
 .home {
     display: flex;
@@ -130,6 +182,12 @@ header .fa-bars {
     background: url(rose\ pink.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+}
+
+.feature-card i {
+    font-size: 2.5rem;
+    color: #d8b4fe;
+    margin-bottom: 1rem;
 }
 
 .home .content {
@@ -274,12 +332,31 @@ header .fa-bars {
     overflow: hidden;
 }
 
+.cta-button {
+    background-color: #f472b6;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
 .products .box-container .box .image img{
     height: 25rem;
 }
 
 .products .box-container .box:hover .image img {
     transform:scale(1.1);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #fda4af, #a8c0ff) ;
+    color: white;
+    padding: 3rem 2rem 1rem;
 }
 
 .products .box-container .box .image .icons {
@@ -427,9 +504,6 @@ header .fa-bars {
     display: flex;
     gap: 1rem;
 }
-
-
-
 
 
 /* media queries */
